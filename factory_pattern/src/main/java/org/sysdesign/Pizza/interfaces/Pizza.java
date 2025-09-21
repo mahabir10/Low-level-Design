@@ -1,20 +1,24 @@
 package org.sysdesign.Pizza.interfaces;
 
+import org.sysdesign.Pizza.ingredients.Dough.Dough;
+import org.sysdesign.Pizza.ingredients.Sauce.Sauce;
+import org.sysdesign.Pizza.ingredients.Topping.Toppings;
+import org.sysdesign.Pizza.ingredients.factory.IngredientsFactory;
+
 import java.util.ArrayList;
 
 import static java.lang.Thread.sleep;
 
 public abstract class Pizza {
 
-    private String name;
-    private String dough;
-    private String sauce;
+    public String name;
+    public Dough dough;
+    public Sauce sauce;
 
-    ArrayList<String> toppings = new ArrayList<>();
+    public ArrayList<Toppings> toppings = new ArrayList<>();
 
-    public void prepare(){
-        System.out.println("Preparing Pizza");
-    }
+
+    public abstract void prepare();
 
     public void bake() {
         System.out.println("Baking started");

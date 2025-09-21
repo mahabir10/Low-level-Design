@@ -11,8 +11,9 @@ public class Main {
         PizzaStore mumbaiPizzaStore = new MumbaiPizzaStore();
         PizzaStore odishaPizzaStore = new OdishaPizzaStore();
 
-        Pizza misalPizza = mumbaiPizzaStore.orderPizza("misal");
-        Pizza pakhalaPizza = odishaPizzaStore.orderPizza("pakhala");
+        Pizza misalPizza = mumbaiPizzaStore.orderPizza("badapav");
+        System.out.println();
+        Pizza pakhalaPizza = odishaPizzaStore.orderPizza("dahivada");
 
     }
 }
