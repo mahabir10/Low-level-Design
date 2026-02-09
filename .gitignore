@@ -1,6 +1,6 @@
 
 # Gradle-specific files
-/strategy_pattern/.gradle/
+.gradle/
 **/build/
 !**/src/**/build/
 
@@ -23,3 +23,5 @@ Thumbs.db
 # Logs and temporary files
 *.log
 *.tmp
+
+*.class

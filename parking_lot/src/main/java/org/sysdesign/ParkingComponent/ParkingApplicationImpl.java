@@ -4,8 +4,6 @@ import org.sysdesign.ParkingComponent.dto.ParkingLotInfo;
 import org.sysdesign.ParkingComponent.interfaces.ParkingApplication;
 import org.sysdesign.ParkingComponent.strategies.ParkingStrategy;
 import org.sysdesign.exceptions.SpotNotFoundException;
-import org.sysdesign.models.ParkingInfo;
-import org.sysdesign.models.VehicleInfo;
 
 public class ParkingApplicationImpl implements ParkingApplication {
 
